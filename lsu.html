@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		h1, h2 {
+			color: darkgreen;
+		}
+		label, legend {
+			color: darkred;
+			font-weight: bold;
+		} 
+		b {
+			font-size: 1.5em;
+			text-decoration: underline;
+		}
+		i {
+			font-size: 1.5em
+		}
+		li {
+			line-height: 2em;
+		}
+		td {
+			text-align: center;
+		}
+		input[type="text"] {
+			background-color: lightblue;
+		}
+
+		</style>
+	<meta charset="utf-8">
+	<title>About</title>
+	</head>
+	<body>
+		<img src="http://www.lsu.edu/stratcomm/online-brand-guide/images/LSU_Purple_RGB.png" height="70">
+		<h1>About</h1>
+		Welcome to the <b>Division of Computer Science and Engineering</b> at LSU! The division resides in the newly formed School of Electrical Engineering and Computer Science (EECS) in the <i>College of Engineering.</i>
+		<h2>The location of out collaborators</h2>
+		<ul>
+			<li>USA</li>
+			<ul style="color: red;">
+				<li><a href="https://www.meetup.com/girldevelopit/">New York</li>
+				<li><a href="https://www.meetup.com/girldevelopitcbus/">Columbus</a></li>
+				<li><a href="https://www.meetup.com/Girl-Develop-It-Austin/">Austin</a></li>
+				<li><a href="https://www.meetup.com/Girl-Develop-It-Philadelphia/">Philly</a></li>
+			</ul>
+			<li>World</li>
+			<ul style="color: red;">
+				<li><a href="http://www.meetup.com/Girl-Develop-It-Ottawa">Ottawa</a></li>
+				<li><a href="https://www.meetup.com/girldevelopit-sydney/">Sydney</a></li>
+			</ul>
+		</ul>
+		<h1>Upcoming Classes</h1>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Location</th>
+					<th>Topic</th>
+				</tr>
+			<tbody>
+				<tr>
+					<td style="color:blue;">New York</td>
+					<td style="color: purple;">JavaScript & jQuery</td>
+				</tr>
+				<tr>
+					<td style="color: blue;">San Francisco</td>
+					<td style="color: purple;">HTML & CSS</td>
+				</tr>
+		</table>
+		<!--
+		<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d100983.6984201601!2d-122.51647976231419!3d37.72576679644918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdog+parks+in+San+Francisco!5e0!3m2!1sen!2sus!4v1517327882945" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<iframe src="https://widgets.itunes.apple.com/widget.html?c=us&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=software&e=software,iPadSoftware&w=250&h=300&ids=386079204&wt=discovery&partnerId=&affiliate_id=&at=&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:250px;height: 300px;border:0px"></iframe>
+		<video width="400px" controls>
+			<source src="http://www.csc.lsu.edu/~qywang/CS6210/HTMLExercise/mov_bbb.mp4"type="video/mp4">
+		</video>
+		-->
+		<h2><b1>Sign Up!</b1></h2>
+		<label> Name:
+		<input type="text" name="name">
+		</label>
+		<br>
+		<label>Email:
+		<input type="text" name="email">
+		</label>
+		<br>
+		<label for="location">Location:</label>
+		<select name="location" id="location">
+			<option value="San Francisco">San Francisco</option>
+			<option value="New York">New York</option>
+		</select>
+		<fieldset>
+			<legend>Gender:</legend>
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="male">
+		</fieldset>
+		<label>Experience: <br>
+		<textarea name="exp"></textarea>
+		</label>
+		<br>
+		<button type="submit">Sign Up</button>
+		<br>
+  		<br>
+ 		<a href="http://twitter.com/girldevelopit">Twitter</a> | <a href="http://www.facebook.com/girldevelopit">Facebook</a> | <a href="http://www.flickr.com/photos/40453677@N00/sets/72157626841092971/">Flickr</a>
+
+	</body>
+</html>
+	
